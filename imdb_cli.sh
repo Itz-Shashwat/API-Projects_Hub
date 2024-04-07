@@ -1,4 +1,4 @@
-api="c927a8c2"
+api="Enter_OMDb-API_Key"
 title() {
     TITLE="$1"
     wget -qO- "http://www.omdbapi.com/?apikey=$api&t=$TITLE"
